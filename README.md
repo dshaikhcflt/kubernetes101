@@ -22,8 +22,7 @@ kubectl get deployment lab2-deploy
 ```
 
 
-2. 
-**Scale (Imperative):** 
+2. **Scale (Imperative):** 
 Increase replicas to handle load.
 
 
@@ -34,8 +33,7 @@ kubectl get pods
 ```
 
 
-3. 
-**Rolling Update:** 
+3. **Rolling Update:** 
 Update the image version.
 
 
@@ -46,8 +44,7 @@ kubectl rollout status deployment/lab2-deploy
 ```
 
 
-4. 
-**Rollback:** 
+4. **Rollback:** 
 Undo the update.
 
 

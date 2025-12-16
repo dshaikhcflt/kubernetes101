@@ -71,7 +71,7 @@ kubectl apply -f 05-jobs.yaml
 
 ---
 
-##📦 Module 2: Namespaces*Focus: Resource isolation.*
+## 📦 Module 2: Namespaces*Focus: Resource isolation.*
 
 Lab 6: Working with Namespaces 
 
@@ -85,7 +85,7 @@ kubectl get namespaces
 
 ---
 
-##🔑 Module 3: Configuration*Focus: Decoupling config from code.*
+## 🔑 Module 3: Configuration*Focus: Decoupling config from code.*
 
 Lab 7: Consuming ConfigMaps & Secrets 
 
@@ -118,7 +118,7 @@ kubectl exec $POD -- env | grep APP_API_KEY
 
 ---
 
-##🌐 Module 4: Networking*Focus: Exposing applications.*
+## 🌐 Module 4: Networking*Focus: Exposing applications.*
 
 Lab 8: Services 
 
@@ -137,7 +137,7 @@ kubectl apply -f 08-services.yaml
 
 ---
 
-##💾 Module 5: Storage*Focus: Persistence.*
+## 💾 Module 5: Storage*Focus: Persistence.*
 
 Lab 9: Persistent Storage 
 
@@ -160,7 +160,7 @@ kubectl get pvc lab9-pvc
 
 ---
 
-##🧹 Cleanup```bash
+## 🧹 Cleanup```bash
 # Delete all lab resources
 kubectl delete -f .
 

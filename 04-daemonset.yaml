@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: lab4-daemon
+spec:
+  selector:
+    matchLabels:
+      name: agent
+  template:
+    metadata:
+      labels:
+        name: agent
+    spec:
+      containers:
+      - name: agent
+        image: busybox
+        command: ["sh", "-c", "sleep 3600"]

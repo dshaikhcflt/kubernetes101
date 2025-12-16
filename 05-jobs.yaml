@@ -1,0 +1,28 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: lab5-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: task
+        image: busybox
+        command: ["echo", "Lab 5 Task Complete"]
+      restartPolicy: Never
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: lab5-cron
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: task
+            image: busybox
+            command: ["echo", "Lab 5 Cron Tick"]
+          restartPolicy: OnFailure

@@ -1,4 +1,4 @@
-##🏗️ Module 1: Workloads*Focus: Application lifecycle, scaling, and self-healing.*
+## 🏗️ Module 1: Workloads*Focus: Application lifecycle, scaling, and self-healing.*
 
 Lab 1: Creating a Pod 
 

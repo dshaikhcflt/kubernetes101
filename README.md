@@ -160,7 +160,8 @@ kubectl get pvc lab9-pvc
 
 ---
 
-## 🧹 Cleanup```bash
+## 🧹 Cleanup
+```bash
 # Delete all lab resources
 kubectl delete -f .
 
